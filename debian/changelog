@@ -1,3 +1,10 @@
+nose-test-select (0.2-1) unstable; urgency=medium
+
+  * New upstream release 0.2
+    - Fixes module method exclusion
+
+ -- Michael Shuler <michael@pbandjelly.org>  Thu, 19 Dec 2013 11:19:17 -0600
+
 nose-test-select (0.1-1) unstable; urgency=low
 
   * Initial release.  Closes: 000000
