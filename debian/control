@@ -1,0 +1,18 @@
+Source: nose-test-select
+Maintainer: Michael Shuler <michael@pbandjelly.org>
+Section: python
+Priority: optional
+Build-Depends: debhelper (>= 9),
+               python-setuptools (>= 0.6b3),
+               python-all (>= 2.6.6-3)
+Standards-Version: 3.9.4
+Homepage: https://github.com/EnigmaCurry/nose-test-select
+
+Package: python-nose-test-select
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: .gitignore style test selection for nose (file and method name globbing)
+ nose-test-select is a Nose plugin that provides a more convenient method
+ of selecting (including and excluding) tests than the built-in regex
+ methods. Tests are selected by creating a file similar to a .gitignore
+ file.
